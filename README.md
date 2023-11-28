@@ -3,28 +3,28 @@ Install
 
 **Be sure to use the same version of the code as the version of the docs
 you're reading.** You probably want the latest tagged version, but the
-default Git version is the main branch. ::
+default Git version is the main branch.
 
     # clone the repository
     $ git clone https://github.com/sepehratwork/CheetahDashboard
     $ cd CheetahDashboard
 
-Create a virtualenv and activate it::
+Create a virtualenv and activate it
 
     $ python3 -m venv .venv
     $ . .venv/bin/activate
 
-Or on Windows cmd::
+Or on Windows cmd
 
     $ py -3 -m venv .venv
     $ .venv\Scripts\activate.bat
 
-Install Flaskr::
+Install Flaskr
 
     $ pip install -e .
 
 Or if you are using the main branch, install Flask from source before
-installing Flaskr::
+installing Flaskr
 
     $ pip install -e .
 
@@ -48,7 +48,7 @@ Test
     $ pip install '.[test]'
     $ pytest
 
-Run with coverage report::
+Run with coverage report
 
     $ coverage run -m pytest
     $ coverage report

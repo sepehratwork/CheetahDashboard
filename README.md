@@ -23,10 +23,6 @@ Install Flaskr
 
     $ pip install -e .
 
-Or if you are using the main branch, install Flask from source before
-installing Flaskr
-
-    $ pip install -e .
 
 
 Run
@@ -37,6 +33,7 @@ Run
     $ flask --app flaskr run --debug
 
 Open http://127.0.0.1:5000 in a browser.
+
 
 
 Test

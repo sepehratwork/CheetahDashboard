@@ -6,12 +6,8 @@ you're reading.** You probably want the latest tagged version, but the
 default Git version is the main branch. ::
 
     # clone the repository
-    $ git clone https://github.com/pallets/flask
-    $ cd flask
-    # checkout the correct version
-    $ git tag  # shows the tagged versions
-    $ git checkout latest-tag-found-above
-    $ cd examples/tutorial
+    $ git clone https://github.com/sepehratwork/CheetahDashboard
+    $ cd CheetahDashboard
 
 Create a virtualenv and activate it::
 
@@ -30,7 +26,6 @@ Install Flaskr::
 Or if you are using the main branch, install Flask from source before
 installing Flaskr::
 
-    $ pip install -e ../..
     $ pip install -e .
 
 

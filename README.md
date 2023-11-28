@@ -24,7 +24,6 @@ Install Flaskr
     $ pip install -e .
 
 
-
 Run
 ---
 

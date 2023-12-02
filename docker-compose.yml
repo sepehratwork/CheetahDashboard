@@ -5,13 +5,6 @@ services:
     build: .
     ports:
       - "5000:5000"
-    command: flask --app flaskr init-db && flask --app flaskr init-db
+    command: flask --app flaskr run --debug --host=0.0.0.0
     volumes:
       - .:/CheetahDashboard
-
-
-
-
-#  db:
-
-#  communication_protocol:
